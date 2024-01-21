@@ -1,0 +1,115 @@
+<style>
+    body {
+        font-family: 'caliorial ', sans-serif;
+        font-size: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #000; 
+        color: #0a0101;
+    }
+
+    .content-frame {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #03000c; 
+        border: 10px solid #000;
+        border-radius: 15px; 
+        box-shadow: 0 0 20px rgba(83, 90, 189, 0.5); 
+    }
+
+    header {
+        background-color: #3e4095;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    nav {
+        background-color: #4a53ca;
+        padding: 0.5em;
+        text-align: center;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        margin: 0 1em;
+        display: inline-block;
+        border-radius: 8px;
+        background-color: #303374;
+    }
+
+    section {
+        padding: 20px;
+        background-color: #5c5da3;
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(214, 199, 202, 0.411);
+    }
+
+    form {
+        background-color: #5c5da3;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input,
+    textarea {
+        background-color: #7a7bb9;
+        width: 40%;
+        padding:5px;
+        margin-bottom: 20px;
+        box-sizing: 2 border-box;
+    }
+
+    button {
+        background-color: #d8e0e9;
+        color: #030101;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    footer {
+        background-color: #3e4095;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+        clear: both;
+    }
+
+    h2 {
+        color: #000000;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+
+    .bio-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bio-text {
+        flex: 1;
+        margin: 0 20px;
+    }
+</style>
+<body>
